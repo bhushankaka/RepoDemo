@@ -1,0 +1,22 @@
+{
+ "requestBody": {	
+ 	"subscriberReferenceId":"51fb33a3ondot507esub40e4be18bb5bcb3bac8d-5-3-0-0",
+	"language":"en",
+	"appVersion":"196-SNAPSHOT",
+	"fiToken":"DemoF",
+	"appToken":"ondotApp",
+	"deviceUniqueId":"10e991b5-af51-3c75-910a-f6e73bae9d10"
+ },
+ 
+ "responseBody": {
+  "apiVersion": "v2.0",
+    "opId": "GET_APP_INFO",
+    "responseDataList": [],
+    "responseStatus": {
+        "messageCode": "LOGIN_105",
+        "responseCode": 2,
+        "operationTraceId": "05e58ad3ondotcc2ce9optrc4986ccapi956001820e7c140e-7-5-5",
+        "additionalInfo": {}
+    }
+ }
+ }

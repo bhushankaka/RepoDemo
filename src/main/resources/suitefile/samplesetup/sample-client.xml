@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="module-name">
+
+
+	<test name="SampleTestCase">
+		<classes>
+			<class
+				name="com.ondot.automation.TestDemo.testscript.createsession.Test_Create_Session" />
+			<class name="com.ondot.automation.TestDemo.testscript.createsession.Test_Create_Session_WrongFIToken"/>
+			<class name="com.ondot.automation.TestDemo.testscript.createsession.Test_Create_Session_WrongAppToken"/>
+			
+			</classes>
+			<classes>
+				<class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser"/>
+		    <class
+				name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken"/>
+		     <class
+				name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken"/>
+		</classes>
+		<!-- <classes>
+		    <class name="com.ondot.automation.TestDemo.testscript.getappinfo.Test_GetAppInfo"/>
+		   <class name="com.ondot.automation.TestDemo.testscript.getappinfo.Test_GetAppInfo_WrongFIToken"/> 
+		 </classes>  -->
+		
+	</test>
+
+
+
+</suite>
+

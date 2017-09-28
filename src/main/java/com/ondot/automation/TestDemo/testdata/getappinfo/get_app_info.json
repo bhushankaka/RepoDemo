@@ -1,0 +1,271 @@
+{
+	"requestBody": {
+	"subscriberReferenceId":"51fb33a3ondot507esub40e4be18bb5bcb3bac8d-5-3-0-0",
+	"language":"en",
+	"appVersion":"196-SNAPSHOT",
+	"fiToken":"DemoFI",
+	"appToken":"ondotApp",
+	"deviceUniqueId":"10e991b5-af51-3c75-910a-f6e73bae9d10" },
+	"responseBody": {
+	
+    "apiVersion": "v2.0",
+    "opId": "GET_APP_INFO",
+    "responseDataList": [
+        {
+            "serverVersion": "serverVersionTest",
+            "upgradeAvailable": false,
+            "assets": [
+                {
+                    "assetCategory": "Global",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "StateMachineParameters",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "DynamicAttributes",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "DeploymentConfiguration",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "MessageCodes",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "AuthExceptionCountryStatus",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "SelfServiceStatus",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "SelfServiceType",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "Branding",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "TNC",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "PrivacyPolicy",
+                    "assetTag": "2"
+                },
+                {
+                    "assetCategory": "FIContacts",
+                    "assetTag": "1"
+                },
+                {
+                    "assetCategory": "StateMachine",
+                    "assetTag": "1"
+                }
+            ],
+            "supportedFeatures": [
+                {
+                    "featureToken": "TagEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "FraudAlert",
+                    "value": true
+                },
+                {
+                    "featureToken": "FundTransferEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "ShowCardTypeInAccountList",
+                    "value": true
+                },
+                {
+                    "featureToken": "accountRecentTransactionEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "RemoteDeposit",
+                    "value": true
+                },
+                {
+                    "featureToken": "TravelEvent",
+                    "value": true
+                },
+                {
+                    "featureToken": "ViewSharedUsers",
+                    "value": true
+                },
+                {
+                    "featureToken": "rateTheApp",
+                    "value": true
+                },
+                {
+                    "featureToken": "timeBasedCardAutoOnOffEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "ShowTutorial",
+                    "value": true
+                },
+                {
+                    "featureToken": "FIAlertServices",
+                    "value": true
+                },
+                {
+                    "featureToken": "SystemMessages",
+                    "value": true
+                },
+                {
+                    "featureToken": "FindUsMyATMEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "CardDetailsAsLandingPageEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "PremiumServices",
+                    "value": true
+                },
+                {
+                    "featureToken": "DelegateCard",
+                    "value": true
+                },
+                {
+                    "featureToken": "ShowLinkedAccounts",
+                    "value": true
+                },
+                {
+                    "featureToken": "ContactUsEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "Messages",
+                    "value": true
+                },
+                {
+                    "featureToken": "MemoEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "emailTxnDetailsEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "PassCode",
+                    "value": true
+                },
+                {
+                    "featureToken": "TransactionSearch",
+                    "value": true
+                },
+                {
+                    "featureToken": "BasicServices",
+                    "value": true
+                },
+                {
+                    "featureToken": "ShowPhoneNumber",
+                    "value": true
+                },
+                {
+                    "featureToken": "SpendOnCardsThisMonthEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "SelectAppLandingPage",
+                    "value": true
+                },
+                {
+                    "featureToken": "AddCard",
+                    "value": true
+                },
+                {
+                    "featureToken": "EditDependentUsers",
+                    "value": true
+                },
+                {
+                    "featureToken": "FindUsAllATMEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "ReceiptCapture",
+                    "value": true
+                },
+                {
+                    "featureToken": "DisputeTransaction",
+                    "value": true
+                },
+                {
+                    "featureToken": "PortfolioPageAsLandingPage",
+                    "value": true
+                },
+                {
+                    "featureToken": "transactionBasedCardAutoOnOffEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "ShowApplicationTutorial",
+                    "value": true
+                },
+                {
+                    "featureToken": "ShowEmailAddress",
+                    "value": true
+                },
+                {
+                    "featureToken": "ApplicationConfiguration",
+                    "value": true
+                },
+                {
+                    "featureToken": "SendAppInfoEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "UserRegistration",
+                    "value": true
+                },
+                {
+                    "featureToken": "weeklyAndMonthlyLimitsEnabled",
+                    "value": true
+                },
+                {
+                    "featureToken": "SelfService",
+                    "value": true
+                },
+                {
+                    "featureToken": "DoNotDisturbEnabled",
+                    "value": true
+                }
+            ],
+            "defaults": {
+                "atmSearchText": "ATM",
+                "updateLocationInterval": 7200,
+                "userNameRules": "^[a-zA-Z0-9_.@-]{5,50}$",
+                "passwordRules": "((((?i)(?!.*?ONDOT)(?!.*?MobileCardService))(?=.*\\d)(?!.*\\s)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+~])).{8,12})",
+                "numberOfTravelEventsAllowed": 5,
+                "startDateOffset": 1,
+                "maxTravelEventDuration": 30,
+                "expireTravelNotificationOffset": 2,
+                "canUserRespondToFraudTransaction": true,
+                "maxAllowedMRDAmount": 1000,
+                "blockedCountries": "0"
+            }
+        }
+    ],
+    "responseStatus": {
+        "messageCode": "APP_100",
+        "responseCode": 0,
+        "operationTraceId": "395abd2dondotcce330optrc4168ccapib071b0f7394ead1a-7-5-5",
+        "additionalInfo": {
+            "FI_NAME": "Demo Financial Institution",
+            "FI_CONTACT": ""
+        }
+    }
+}
+	
+}

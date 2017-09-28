@@ -1,0 +1,79 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable ondot is: ondot</td></tr>
+<tr><td>INFO: The value found with Environment Module variable all is: all</td></tr>
+<tr><td>INFO: Suites requested from user [ondot-all]</td></tr>
+<tr><td>INFO: Building suite for client: ondot
+</td></tr>
+<tr><td>INFO: New Suite Created with name: ondot-module-name</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ondot-module-name">
+  <test name="SampleTestCase">
+    <classes>
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser"/>
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken"/>
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken"/>
+    </classes>
+  </test> <!-- SampleTestCase -->
+</suite> <!-- ondot-module-name -->
+</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data from the test data file => registervaliduser.json</td></tr>
+<tr><td>Step #3: Get Expected data from the test data file => registervaliduser.json</td></tr>
+<tr><td>Step #4: Compare Actual vs Excepted</td></tr>
+<tr><td>PASS : verification of FI Token : ACTUAL : DemoFI 	EXPECTED :DemoFI</td></tr>
+<tr><td>PASS : verification of subscriberReferenceId : ACTUAL : 51f 	EXPECTED :51f</td></tr>
+<tr><td>PASS : verification of messagecode : ACTUAL : REG_122 	EXPECTED :REG_122</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data from the test data file => registervaliduser_wrong_apptoken.json</td></tr>
+<tr><td>Step #3: Get Expected data from the test data file => registervaliduser_wrong_apptoken.json</td></tr>
+<tr><td>Step #4: Compare Actual vs Excepted</td></tr>
+<tr><td>PASS : verification of FI Token : ACTUAL : null 	EXPECTED :null</td></tr>
+<tr><td>PASS : verification of subscriberReferenceId : ACTUAL : null 	EXPECTED :null</td></tr>
+<tr><td>PASS : verification of messagecode : ACTUAL : APP_102 	EXPECTED :APP_102</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data from the test data file => registervaliduser_wrong_fitoken.json</td></tr>
+<tr><td>Step #3: Get Expected data from the test data file => registervaliduser_wrong_fitoken.json</td></tr>
+<tr><td>Step #4: Compare Actual vs Excepted</td></tr>
+<tr><td>PASS : verification of FI Token : ACTUAL : null 	EXPECTED :null</td></tr>
+<tr><td>PASS : verification of subscriberReferenceId : ACTUAL : null 	EXPECTED :null</td></tr>
+<tr><td>PASS : verification of messagecode : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data from the test data file => registervaliduser.json</td></tr>
+<tr><td>Step #3: Get Expected data from the test data file => registervaliduser.json</td></tr>
+<tr><td>Step #4: Compare Actual vs Excepted</td></tr>
+<tr><td>PASS : verification of messagecode : ACTUAL : REG_122 	EXPECTED :REG_122</td></tr>
+<tr><td>PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data from the test data file => registervaliduser_wrong_apptoken.json</td></tr>
+<tr><td>Step #3: Get Expected data from the test data file => registervaliduser_wrong_apptoken.json</td></tr>
+<tr><td>Step #4: Compare Actual vs Excepted</td></tr>
+<tr><td>PASS : verification of messagecode : ACTUAL : APP_102 	EXPECTED :APP_102</td></tr>
+<tr><td>PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data from the test data file => registervaliduser_wrong_fitoken.json</td></tr>
+<tr><td>Step #3: Get Expected data from the test data file => registervaliduser_wrong_fitoken.json</td></tr>
+<tr><td>Step #4: Compare Actual vs Excepted</td></tr>
+<tr><td>PASS : verification of messagecode : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105</td></tr>
+<tr><td>PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data  => registervaliduser.json</td></tr>
+<tr><td>Step #2: Get expected message code  => registervaliduser.json</td></tr>
+<tr><td>Step #3: compare actual vs expected  => registervaliduser.json</td></tr>
+<tr><td>PASS : verification of message code : ACTUAL : REG_122 	EXPECTED :REG_122</td></tr>
+<tr><td>PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER</td></tr>
+<tr><td>PASS : verification of responsecode : ACTUAL : 0 	EXPECTED :0</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data  => registervaliduser_wrong_apptoken.json</td></tr>
+<tr><td>Step #2: Get expected message code  => registervaliduser_wrong_apptoken.json</td></tr>
+<tr><td>Step #3: compare actual vs expected  => registervaliduser_wrong_apptoken.json</td></tr>
+<tr><td>PASS : verification of message code : ACTUAL : APP_102 	EXPECTED :APP_102</td></tr>
+<tr><td>PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER</td></tr>
+<tr><td>PASS : verification of responsecode : ACTUAL : 2 	EXPECTED :2</td></tr>
+<tr><td>Step #1: Do Post Call for Register_Valid_User and Store Response</td></tr>
+<tr><td>Step #2: Get Actual data  => registervaliduser_wrong_fitoken.json</td></tr>
+<tr><td>Step #2: Get expected message code  => registervaliduser_wrong_fitoken.json</td></tr>
+<tr><td>Step #3: compare actual vs expected  => registervaliduser_wrong_fitoken.json</td></tr>
+<tr><td>PASS : verification of message code : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105</td></tr>
+<tr><td>PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER</td></tr>
+<tr><td>PASS : verification of responsecode : ACTUAL : 2 	EXPECTED :2</td></tr>
+</table>

@@ -1,0 +1,29 @@
+{
+	"requestBody":{ 
+	"deviceUniqueId": "10e991b5-af51-3c75-9",
+   "language": "us-en",
+   "fiToken" : "DemoFI",
+   "appToken": "ondotAp",
+   "cardList" : [
+
+   ],
+   "additionalRegistrationTokens":false,
+   "subscriberReferenceId": "51f",
+   "isEncrypted": true
+   },
+	
+	"responseBody": { 
+	 "apiVersion": "v2.0",
+    "opId": "REGISTER_VALID_USER",
+    "responseDataList": [],
+    "responseStatus": {
+        "messageCode": "APP_102",
+        "responseCode": 2,
+        "operationTraceId": "0d0ccee7ondotccb772optrc45f4ccapib119b519caf2ea37-7-5-5",
+        "additionalInfo": {}
+    }
+        }
+    }
+	
+
+	

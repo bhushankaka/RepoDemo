@@ -1,0 +1,39 @@
+{
+	"requestBody": {
+   "deviceUniqueId": "10e991b5-af51-3c75-9",
+   "language": "us-en",
+   "fiToken" : "DemoFI",
+   "appToken": "ondotApp",
+   "cardList" : [
+	"12542"
+   ],
+   "additionalRegistrationTokens":false,
+   "subscriberReferenceId": "51f",
+   "isEncrypted": true
+},
+
+"responseBody": {
+	 "apiVersion": "v2.0",
+    "opId": "REGISTER_VALID_USER",
+    "responseDataList": [
+        {
+            "fiToken": "DemoFI",
+            "operationCompleted": true,
+            "subscriberReferenceId": "51f",
+            "errorCardMap": {}
+        }
+    ],
+    "responseStatus": {
+        "messageCode": "REG_122",
+        "responseCode": 0,
+        "operationTraceId": "a1c03bd9ondotcce712optrc46f1ccapiae53d9a7708cb103-7-5-5",
+        "additionalInfo": {
+            "FI_NAME": "Demo Financial Institution",
+            "APPLICATION_NAME": "MobileCardService",
+            "FI_CONTACT": ""
+        }
+    }
+
+}
+
+}

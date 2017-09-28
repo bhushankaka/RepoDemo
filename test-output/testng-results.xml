@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable ondot is: ondot]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable all is: all]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Suites requested from user [ondot-all]]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Building suite for client: ondot
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: ondot-module-name]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ondot-module-name">
+  <test name="SampleTestCase">
+    <classes>
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser"/>
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken"/>
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken"/>
+    </classes>
+  </test> <!-- SampleTestCase -->
+</suite> <!-- ondot-module-name -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #4: Compare Actual vs Excepted]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of FI Token : ACTUAL : DemoFI 	EXPECTED :DemoFI]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of subscriberReferenceId : ACTUAL : 51f 	EXPECTED :51f]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of messagecode : ACTUAL : REG_122 	EXPECTED :REG_122]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_apptoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_apptoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #4: Compare Actual vs Excepted]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of FI Token : ACTUAL : null 	EXPECTED :null]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of subscriberReferenceId : ACTUAL : null 	EXPECTED :null]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of messagecode : ACTUAL : APP_102 	EXPECTED :APP_102]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_fitoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_fitoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #4: Compare Actual vs Excepted]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of FI Token : ACTUAL : null 	EXPECTED :null]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of subscriberReferenceId : ACTUAL : null 	EXPECTED :null]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of messagecode : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #4: Compare Actual vs Excepted]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of messagecode : ACTUAL : REG_122 	EXPECTED :REG_122]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_apptoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_apptoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #4: Compare Actual vs Excepted]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of messagecode : ACTUAL : APP_102 	EXPECTED :APP_102]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_fitoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_fitoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #4: Compare Actual vs Excepted]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of messagecode : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data  => registervaliduser.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get expected message code  => registervaliduser.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: compare actual vs expected  => registervaliduser.json]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of message code : ACTUAL : REG_122 	EXPECTED :REG_122]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of responsecode : ACTUAL : 0 	EXPECTED :0]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data  => registervaliduser_wrong_apptoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get expected message code  => registervaliduser_wrong_apptoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: compare actual vs expected  => registervaliduser_wrong_apptoken.json]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of message code : ACTUAL : APP_102 	EXPECTED :APP_102]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of responsecode : ACTUAL : 2 	EXPECTED :2]]>
+    </line>
+    <line>
+      <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get Actual data  => registervaliduser_wrong_fitoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #2: Get expected message code  => registervaliduser_wrong_fitoken.json]]>
+    </line>
+    <line>
+      <![CDATA[Step #3: compare actual vs expected  => registervaliduser_wrong_fitoken.json]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of message code : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+    </line>
+    <line>
+      <![CDATA[PASS : verification of responsecode : ACTUAL : 2 	EXPECTED :2]]>
+    </line>
+  </reporter-output>
+  <suite name="ondot-module-name" duration-ms="11158" started-at="2017-09-28T13:49:20Z" finished-at="2017-09-28T13:49:32Z">
+    <groups>
+    </groups>
+    <test name="SampleTestCase" duration-ms="11158" started-at="2017-09-28T13:49:20Z" finished-at="2017-09-28T13:49:32Z">
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken">
+        <test-method status="PASS" signature="testfitoken(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken@390e0936]" name="testfitoken" duration-ms="1199" started-at="2017-09-28T19:19:28Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data  => registervaliduser.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get expected message code  => registervaliduser.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: compare actual vs expected  => registervaliduser.json]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of message code : ACTUAL : REG_122 	EXPECTED :REG_122]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of responsecode : ACTUAL : 0 	EXPECTED :0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testfitoken -->
+        <test-method status="PASS" signature="testfitoken(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken@390e0936]" name="testfitoken" duration-ms="1163" started-at="2017-09-28T19:19:29Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser_wrong_apptoken.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data  => registervaliduser_wrong_apptoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get expected message code  => registervaliduser_wrong_apptoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: compare actual vs expected  => registervaliduser_wrong_apptoken.json]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of message code : ACTUAL : APP_102 	EXPECTED :APP_102]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of responsecode : ACTUAL : 2 	EXPECTED :2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testfitoken -->
+        <test-method status="PASS" signature="testfitoken(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken@390e0936]" name="testfitoken" duration-ms="933" started-at="2017-09-28T19:19:31Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser_wrong_fitoken.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data  => registervaliduser_wrong_fitoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get expected message code  => registervaliduser_wrong_fitoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: compare actual vs expected  => registervaliduser_wrong_fitoken.json]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of message code : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of operation code : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of responsecode : ACTUAL : 2 	EXPECTED :2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testfitoken -->
+      </class> <!-- com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken -->
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser">
+        <test-method status="PASS" signature="configure()[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser@3be810ee]" name="configure" is-config="true" duration-ms="8" started-at="2017-09-28T19:19:20Z" finished-at="2017-09-28T19:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="dataSetup()[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser@3be810ee]" name="dataSetup" is-config="true" duration-ms="2" started-at="2017-09-28T19:19:20Z" finished-at="2017-09-28T19:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method status="PASS" signature="dataSetup()[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken@60d2d222]" name="dataSetup" is-config="true" duration-ms="0" started-at="2017-09-28T19:19:20Z" finished-at="2017-09-28T19:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method status="PASS" signature="dataSetup()[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongFIToken@390e0936]" name="dataSetup" is-config="true" duration-ms="0" started-at="2017-09-28T19:19:20Z" finished-at="2017-09-28T19:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method status="PASS" signature="test_register_valid_user(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser@3be810ee]" name="test_register_valid_user" duration-ms="2455" started-at="2017-09-28T19:19:20Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #4: Compare Actual vs Excepted]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of FI Token : ACTUAL : DemoFI 	EXPECTED :DemoFI]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of subscriberReferenceId : ACTUAL : 51f 	EXPECTED :51f]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of messagecode : ACTUAL : REG_122 	EXPECTED :REG_122]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_register_valid_user -->
+        <test-method status="PASS" signature="test_register_valid_user(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser@3be810ee]" name="test_register_valid_user" duration-ms="1047" started-at="2017-09-28T19:19:23Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser_wrong_apptoken.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_apptoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_apptoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #4: Compare Actual vs Excepted]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of FI Token : ACTUAL : null 	EXPECTED :null]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of subscriberReferenceId : ACTUAL : null 	EXPECTED :null]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of messagecode : ACTUAL : APP_102 	EXPECTED :APP_102]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_register_valid_user -->
+        <test-method status="PASS" signature="test_register_valid_user(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser@3be810ee]" name="test_register_valid_user" duration-ms="1235" started-at="2017-09-28T19:19:24Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser_wrong_fitoken.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_fitoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_fitoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #4: Compare Actual vs Excepted]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of FI Token : ACTUAL : null 	EXPECTED :null]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of subscriberReferenceId : ACTUAL : null 	EXPECTED :null]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of messagecode : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_register_valid_user -->
+      </class> <!-- com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser -->
+      <class name="com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken">
+        <test-method status="PASS" signature="testregister_valid_user_wrongapptoken(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken@60d2d222]" name="testregister_valid_user_wrongapptoken" duration-ms="954" started-at="2017-09-28T19:19:25Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #4: Compare Actual vs Excepted]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of messagecode : ACTUAL : REG_122 	EXPECTED :REG_122]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testregister_valid_user_wrongapptoken -->
+        <test-method status="PASS" signature="testregister_valid_user_wrongapptoken(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken@60d2d222]" name="testregister_valid_user_wrongapptoken" duration-ms="949" started-at="2017-09-28T19:19:26Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser_wrong_apptoken.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_apptoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_apptoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #4: Compare Actual vs Excepted]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of messagecode : ACTUAL : APP_102 	EXPECTED :APP_102]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testregister_valid_user_wrongapptoken -->
+        <test-method status="PASS" signature="testregister_valid_user_wrongapptoken(java.io.File)[pri:0, instance:com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken@60d2d222]" name="testregister_valid_user_wrongapptoken" duration-ms="1195" started-at="2017-09-28T19:19:27Z" data-provider="DataProvider" finished-at="2017-09-28T19:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\bhushan.kakad\workspace\GalenWorkspace\TestDemo\src\main\java\com\ondot\automation\TestDemo\testdata\registervaliduser\registervaliduser_wrong_fitoken.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step #1: Do Post Call for Register_Valid_User and Store Response]]>
+            </line>
+            <line>
+              <![CDATA[Step #2: Get Actual data from the test data file => registervaliduser_wrong_fitoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #3: Get Expected data from the test data file => registervaliduser_wrong_fitoken.json]]>
+            </line>
+            <line>
+              <![CDATA[Step #4: Compare Actual vs Excepted]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of messagecode : ACTUAL : LOGIN_105 	EXPECTED :LOGIN_105]]>
+            </line>
+            <line>
+              <![CDATA[PASS : verification of operationId : ACTUAL : REGISTER_VALID_USER 	EXPECTED :REGISTER_VALID_USER]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testregister_valid_user_wrongapptoken -->
+      </class> <!-- com.ondot.automation.TestDemo.testscript.registervaliduser.Test_RegisterValidUser_WrongAppToken -->
+    </test> <!-- SampleTestCase -->
+  </suite> <!-- ondot-module-name -->
+</testng-results>

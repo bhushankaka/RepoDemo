@@ -1,0 +1,24 @@
+{
+	"requestBody": { 
+	"deviceUniqueId": "10e991b5-af51-3c75-9",
+   "language": "us-en",
+   "fiToken" : "DemoF",
+   "appToken": "ondotApp",
+   "cardList" : [
+
+   ],
+   "additionalRegistrationTokens":false,
+   "subscriberReferenceId": "51f",
+   "isEncrypted": true },
+	
+	"responseBody": {
+	"apiVersion": "v2.0",
+    "opId": "REGISTER_VALID_USER",
+    "responseDataList": [],
+    "responseStatus": {
+        "messageCode": "LOGIN_105",
+        "responseCode": 2,
+        "operationTraceId": "638190b7ondotccc31doptrc4043ccapi89e3cb4a8d78577a-7-5-5",
+        "additionalInfo": {}
+    } }
+}

@@ -1,0 +1,37 @@
+{
+"requestBody":{
+   "deviceUniqueId": "10e991b5-af51-3c75-9",
+   "language": "us-en",
+   "fiToken" : "DemoFI",
+   "appToken": "ondotApp",
+   "cardList" : [
+   	"0002"
+   ],
+   "additionalRegistrationTokens":false,
+   "subscriberReferenceId": "51f",
+   "isEncrypted": false
+},
+"responseBody":{
+  "apiVersion": "v2.0",
+    "opId": "CREATE_SESSION",
+    "responseDataList": [
+        {
+            "fiToken": "DemoFI",
+            "tempSessionKey": null,
+            "subscriberReferenceId": "51f"
+        }
+    ],
+    "responseStatus": {
+        "messageCode": "LOGIN_100",
+        "responseCode": 0,
+        "operationTraceId": "4a9b13f7ondotcc4e31optrc4badccapia59e70f0bde47bfc-7-5-5",
+        "additionalInfo": {
+            "FI_NAME": "Demo Financial Institution",
+            "FI_CONTACT": ""
+        }
+    }
+
+
+}
+
+}
